@@ -23,8 +23,8 @@ public class StringOps {
     ////////////////////////////////////////////////////////////
     public static void main(String[] args) {
        
-        String S = "One two   tHRee world"; 
-        int [] a = allIndexOf(S, 'w'); 
+        String S = "Hello world"; 
+        int [] a = allIndexOf(S, 'o'); 
         // System.out.println(camelCase(S));
         // System.out.println(allIndexOf(S, 'w'));
         for (int i =0; i<a.length; i++){
@@ -104,7 +104,7 @@ public class StringOps {
             place = string.indexOf(chr);
             sum = sum + place; 
             a [j] = sum; 
-            string = string.substring(place+1); 
+            string = " " + string.substring(place+1); 
             
         }
         

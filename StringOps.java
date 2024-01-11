@@ -23,12 +23,12 @@ public class StringOps {
     ////////////////////////////////////////////////////////////
     public static void main(String[] args) {
        
-        String S = " Hello world"; 
+        String S = "   Intro to  coMPUter"; 
         int [] a = allIndexOf(S, 'l'); 
-        System.out.println("camelCase: "+camelCase(S));
-            for (int i =0; i<a.length; i++){
+        System.out.println("camelCase :"+camelCase(S));
+          /*   for (int i =0; i<a.length; i++){
                  System.out.println(a[i]);
-        } 
+           } */    
   
     }
 
@@ -62,7 +62,7 @@ public class StringOps {
             i++; 
             s = string.charAt(i);
         }
-        while (i <string.length()) {
+        while (i < string.length()) {
 
             s = string.charAt(i);
             

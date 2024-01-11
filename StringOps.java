@@ -23,7 +23,7 @@ public class StringOps {
     ////////////////////////////////////////////////////////////
     public static void main(String[] args) {
        
-        String S = "    Hello world"; 
+        String S = " Hello world"; 
         int [] a = allIndexOf(S, 'l'); 
         System.out.println("camelCase: "+camelCase(S));
             for (int i =0; i<a.length; i++){
